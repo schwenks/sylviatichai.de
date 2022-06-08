@@ -1,0 +1,85 @@
+
+@font-face {
+	font-family: 'HelveticaNeueLTCom-Cn';
+	src: url('/collection/fonts/HelveticaNeueLTCom-Cn.eot?') format('eot'), 
+	     url('/collection/fonts/HelveticaNeueLTCom-Cn.woff') format('woff'), 
+	     url('/collection/fonts/HelveticaNeueLTCom-Cn.ttf')  format('truetype'),
+	     url('/collection/fonts/HelveticaNeueLTCom-Cn.svg#HelveticaNeueLTCom-Cn') format('svg');
+}
+  
+/* Global properties ======================================================== */      
+html {width:100%;height:100%}
+a:active {  outline:none; }      
+:focus {  -moz-outline-style: none; }     
+a {color: #000; text-decoration:underline; outline:none;}      
+.clear {clear:both; width:100%; line-height:0; font-size:0;}     
+textarea:focus,select:focus,input[type=submit]:focus,input[type=button]:focus,input[type=text]:focus,input[type=password]:focus {  outline: 0 none; }
+
+body {
+    font-family: 'HelveticaNeueLTCom-Cn', Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#272727;
+	padding:0 0px;
+	font-size:12px;
+	margin: 0 0px;
+	height:100%;
+	width:100%;
+	cursor: default;
+	background:#fff;
+}
+
+
+
+
+#page-wrapper{
+	width:95%;
+	height:95%;
+/*	border:1px solid #1A171B; */
+    margin-top: auto;
+	margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+	margin:auto;
+	background: url(/collection/media/sylvia_tichai_frei_web.jpg) 80% bottom no-repeat;
+}
+
+
+
+#page-wrapper #hl{ 
+	color: #CD071E;
+    font-family: 'HelveticaNeueLTCom-Cn', Arial, Helvetica, sans-serif;
+	font-size:650%;
+	margin-left:40px;
+	margin-top:20%;
+}
+
+
+#page-wrapper #left-col{
+	float:left;
+	width:60%;
+}
+
+#page-wrapper #right-col{
+	float:right;
+	width: 250px;
+}
+
+#page-wrapper #logo{
+	font-size:300%;
+	margin-top:10%;
+}
+
+#page-wrapper #text_1{
+	font-size:170%;
+	margin-top:20px;
+}
+
+#page-wrapper #text_2{
+	font-size:120%;
+	position:relative;
+}	
+
+
+#page-wrapper .tno{
+	font-size:9px;
+}
